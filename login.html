@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/stylecad.css">
+    <script src="login.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content primeiro-conteudo">
+            <div class="primeira-coluna">
+                <h2 class="titulo titulo-primario">Bem vindo de volta</h2>
+                <p class="description description-primary">conecte aqui</p>
+                <p class="description description-primary">Logue com suas informações pessoais</p>
+                <a href="formulario.html">
+                    <button class="btn btn-primary">Logue Aqui</button>
+                </a>
+            </div>
+            <div class="segunda-coluna">
+                <h2 class="title">Criar Conta</h2>
+                <div class="social-media">
+                    <ul class="list-social-media">
+                        <li class="item-social-media">
+                            <a href="#"><img src="./img/face.png"></a></li>
+                        <li class="item-social-media">
+                            <a href="#"><img src="./img/tw.png"></a></li>
+                        <li class="item-social-media">
+                            <a href="#"><img src="./img/likedin.png"></a></li>
+                        </li>
+                    </ul>
+                </div>
+                <p class="description description-second">Ou use seu email para o registro</p>
+                <legend>Acesso restrito</legend>
+                <form class="form" action="" method="post">
+                    <label class="label-input" for="">
+                        <input type="text" placeholder="Nome" autocomplete="off"><br><br>
+                    </label>
+
+                    <label class="label-input" for="">
+                        <input type="email" placeholder="Email" autocomplete="off">
+                    </label>
+
+                    <label class="label-input" for="">
+                        <input type="password" placeholder="Senha" autocomplete="off">
+                    </label>
+
+                    <input type="reset" name="limpar" value="LIMPAR"><br>
+                    <button class="btn-second" name="botao" value="login" onClick="login(this.form)">Logar</button>
+
+
+
+                </form>
+            </div>
+        </div>
+        <div class="content segundo-conteudo">
+            <div class="content primeiro-conteudo">
+                <div class="primeira-coluna">
+                    <h2 class="titulo">Ola cliente</h2>
+                    <p class="descrição">Entre con seus detalhes pessoais</p>
+                    <p class="descrição">Começe a Jornada Conosco</p>
+                    <button class="btn">Logue Agora</button>
+                </div>
+                <div class="segunda-coluna">
+                    <h2 class="title">Logue como adm</h2>
+                    <div class="social-media">
+                        <ul>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Google+</a></li>
+                            <li><a href="#">LinkedIn</a></li>
+                        </ul>
+                    </div>
+                    <p class="description">Ou use seu email para o registro</p>
+                    <form class="form">
+                        <input type="email" placeholder="Email">
+                        <input type="password" placeholder="Password">
+                        <a href="#">Esqueceu sua Senha?</a>
+                        <button class="btn">Logar</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
